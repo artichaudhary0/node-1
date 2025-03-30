@@ -3,8 +3,6 @@ const http = require("node:http")
 const PORT = 8083
 
 const server = http.createServer((req,res)=>{
-
-    // console.log("dyfjduysf")
     const url = req.url
     console.log(url)
     if(url === "/")
